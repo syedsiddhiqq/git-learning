@@ -29,11 +29,11 @@ while True:
                 # print(str(a[-1].text).split("\n")[2])
                 fbamount = re.findall("\d+m",str(a[-1].text).split("\n")[2])
                 fbamount = re.findall("\d+",fbamount[0])
-#                 for git learning added some lines
-#                 print(fbamount)
-#                 if(int(fbamount[0])>0):
-#                     print("yes")
-#                   for git purposes commented some lines.
+                for git learning added some lines
+                print(fbamount)
+                if(int(fbamount[0])>0):
+                    print("yes")
+             
                     time.sleep(0.5)
                     r = []
                     r = a[-1].find_elements_by_class_name("reaction-1ELvT8")
