@@ -11,13 +11,7 @@ int main(){
        sequence.append(sequence);
         sequence.append(sequence);
     }
+//     removed the unwanted lines.
     cout<<sequence;
-    // duplicated this for looop git learning purposes.
-        for(int i=1;i<=n;i++){
-               length = sequence.size();
-               sequence[length-1] = to_string(i+1);
-               sequence.append(sequence);
-            }
-// added a comment here for learninig purpose.
     return 0;
 }
