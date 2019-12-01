@@ -18,6 +18,6 @@ int main(){
                sequence[length-1] = to_string(i+1);
                sequence.append(sequence);
             }
-
+// added a comment here for learninig purpose.
     return 0;
 }
