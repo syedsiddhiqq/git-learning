@@ -12,5 +12,12 @@ int main(){
         sequence.append(sequence);
     }
     cout<<sequence;
+    // duplicated this for looop git learning purposes.
+        for(int i=1;i<=n;i++){
+               length = sequence.size();
+               sequence[length-1] = to_string(i+1);
+               sequence.append(sequence);
+            }
+
     return 0;
 }
