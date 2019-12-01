@@ -1,0 +1,2136 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <ShowQuote xmlns:ns1="urn:cisco:b2bngc:services:1.0" xmlns:cisco="urn:cisco:names:message:aqs" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns="http://www.openapplications.org/oagis/9">
+            <ApplicationArea>
+                <Sender>
+                    <LogicalID schemeAgencyName="847291911"/>
+                    <ReferenceID/>
+                </Sender>
+                <Receiver>
+                    <LogicalID schemeAgencyName="847291911"/>
+                </Receiver>
+                <CreationDateTime>2019-11-15T04:56:06Z</CreationDateTime>
+                <BODID>49ee9949-ffab-4ef8-bba5-3a28ddef1829</BODID>
+            </ApplicationArea>
+            <DataArea>
+                <Show>
+                    <ResponseCriteria>
+                        <ChangeStatus>
+                            <Reason>Success</Reason>
+                        </ChangeStatus>
+                    </ResponseCriteria>
+                </Show>
+                <Quote>
+                    <QuoteHeader>
+                        <DocumentID>
+                            <ID>4722826637</ID>
+                        </DocumentID>
+                        <LastModificationDateTime>2019-10-24</LastModificationDateTime>
+                        <DocumentDateTime>2019-10-24</DocumentDateTime>
+                        <Description type="TradeInIdentifier"/>
+                        <Description type="ShareAccessKey">WLAE4722826637</Description>
+                        <Status>
+                            <Code listName="QuoteStatus" listAgencyName="Cisco">Approved</Code>
+                        </Status>
+                        <Party role="QuoteOwner">
+                            <Contact>
+                                <ID>matt.fredrickson</ID>
+                            </Contact>
+                        </Party>
+                        <Party role="End Customer">
+                            <Name>TATA COMMUNICATIONS</Name>
+                            <Location>
+                                <Address>
+                                    <LineOne>10 FENCHURCH STREET</LineOne>
+                                    <LineTwo/>
+                                    <LineThree/>
+                                    <CityName>LONDON</CityName>
+                                    <CountrySubDivisionCode>LONDON</CountrySubDivisionCode>
+                                    <CountryCode>GB</CountryCode>
+                                    <PostalCode>EC3M 3BE</PostalCode>
+                                </Address>
+                            </Location>
+                        </Party>
+                        <Party role="Partner">
+                            <PartyIDs>
+                                <ID>Tata Communications UK Ltd</ID>
+                            </PartyIDs>
+                            <Location>
+                                <Address>
+                                    <LineOne>UPPER THAMES STREET</LineOne>
+                                    <LineTwo>62 VINTNERS PLACE</LineTwo>
+                                    <LineThree/>
+                                    <CityName>LONDON</CityName>
+                                    <CountrySubDivisionCode>LONDON</CountrySubDivisionCode>
+                                    <CountryCode>GB</CountryCode>
+                                    <PostalCode>EC4V 3BJ</PostalCode>
+                                </Address>
+                            </Location>
+                            <Contact>
+                                <Name sequenceName="First Name">Matt</Name>
+                                <Name sequenceName="Last Name">Fredrickson</Name>
+                                <JobTitle>NA</JobTitle>
+                                <TelephoneCommunication>
+                                    <FormattedNumber>44 07773325042</FormattedNumber>
+                                </TelephoneCommunication>
+                                <EMailAddressCommunication>
+                                    <EMailAddressID>matt.fredrickson@tatacommunications.com</EMailAddressID>
+                                </EMailAddressCommunication>
+                            </Contact>
+                        </Party>
+                        <BillToParty>
+                            <Location>
+                                <Address>
+                                    <ID>1001126166</ID>
+                                </Address>
+                                <Description type="OperatingUnit">CISCO AUSTRALIA OPERATING UNIT</Description>
+                            </Location>
+                        </BillToParty>
+                        <EffectiveTimePeriod>
+                            <EndDateTime>2020-04-21</EndDateTime>
+                        </EffectiveTimePeriod>
+                        <QualificationTerm typeAttribute="Deal">
+                            <ID schemeAgencyName="Cisco">42293222</ID>
+                        </QualificationTerm>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoHeader>
+                                    <ns1:IntendedUseCode>Resale</ns1:IntendedUseCode>
+                                    <ns1:PriceList>
+                                        <ns1:ID>1110</ns1:ID>
+                                        <Description>Global Price List EMEA Availability</Description>
+                                    </ns1:PriceList>
+                                    <ns1:PriceList>
+                                        <ns1:ShortName>GLEMEA</ns1:ShortName>
+                                    </ns1:PriceList>
+                                    <ns1:ConfigurationMessages>
+                                        <ID/>
+                                        <Description/>
+                                        <Reason/>
+                                    </ns1:ConfigurationMessages>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                               </ns1:CiscoHeader>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                        <Extension>
+                            <ValueText typeCode="QuoteName">Sample FLEX AU Meetings Deal for Optimus automation project - testing only Quote</ValueText>
+                        </Extension>
+                    </QuoteHeader>
+                    <QuoteLine>
+                        <LineNumber>5331606632</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX</ID>
+                            </ItemID>
+                            <Description>Collaboration Flex Plan</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">CONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>0</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                   <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.0</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>1</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C68730559</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Qa13553d5-fc0e-4354-b63c-ebc38f71e6eb</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:TransactionInfoID>afp7vz6y3s2c7rcjq4scv2efx</ns1:TransactionInfoID>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:UtilityDrawdownAmount>0</ns1:UtilityDrawdownAmount>
+                                    <ns1:ShipToParty>
+                                        <ns1:Location>
+                                            <ns1:Address>
+                                                <ns1:CountryCode>GB</ns1:CountryCode>
+                                            </ns1:Address>
+                                        </ns1:Location>
+                                    </ns1:ShipToParty>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606633</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">SVS-SPK-SUPT-BAS</ID>
+                            </ItemID>
+                            <Description>Basic Support for Cisco Spark</Description>
+                            <Description type="ServiceLevelName">SWCS</Description>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco"/>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.1</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>1</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>SVS-SPK-SUPT-BAS</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C60360706</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Q73a89833-e33b-4b30-9901-43d2dbb5aa98</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>3</ns1:ListPriceVersion>
+                                    <ns1:ShipToParty>
+                                        <ns1:Location>
+                                            <ns1:Address>
+                                                <ns1:CountryCode>GB</ns1:CountryCode>
+                                            </ns1:Address>
+                                        </ns1:Location>
+                                    </ns1:ShipToParty>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606634</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-SEC-PK-ENT</ID>
+                            </ItemID>
+                            <Description>Extended Security Pack Entitlement</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.2</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>10000</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-SEC-PK-ENT</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C54042960</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Qe5f66486-85c3-4607-93e8-bf86ba576083</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>User</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606635</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-EDGAUD-USER</ID>
+                            </ItemID>
+                            <Description>A-FLEX Webex Edge Audio</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.3</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>1500</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-EDGAUD-USER</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C29134752</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Q42f1eed2-ea95-428d-8480-35eaba8cb131</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>User</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606636</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-SPK-VOIP</ID>
+                            </ItemID>
+                            <Description>Included  VoIP (1)</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.4</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>1</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                           <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-SPK-VOIP</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C29491644</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Qb8a1e8e7-db55-4a79-a8ef-22c8897aad1c</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>Each</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606637</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-MSG-ENT</ID>
+                            </ItemID>
+                            <Description>Messaging Entitlement</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.5</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>12000</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                           <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-MSG-ENT</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C41605192</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Qd3d9643f-5cec-4944-8218-4090d23660ae</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>User</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606638</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-STORAGE-1TB</ID>
+                            </ItemID>
+                            <Description>Messaging File Storage 1TB Add-on (1)</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.6</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">62.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">62.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>10</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">100.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">12000.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">7440.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-STORAGE-1TB</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C66027358</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Qf37759de-4f79-4398-8a46-1a4fd6e65b5a</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>Each</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606639</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-MEET-ENT</ID>
+                            </ItemID>
+                            <Description>Cloud Meetings Entitlement</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.7</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>12000</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-MEET-ENT</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C38251335</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Qd6a1bf88-8dff-4131-a992-c913428c9e08</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>User</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606640</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-DEVREG-ENT</ID>
+                            </ItemID>
+                            <Description>Cloud Device Registration Entitlement</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.8</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>12000</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                       </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-DEVREG-ENT</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C58875089</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Q0ba8ff3c-19c1-4f1c-8229-a71125ee34d1</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>User</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606641</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-CCA-SP-USER</ID>
+                            </ItemID>
+                            <Description>CCA SP User</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.9</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>1500</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                       </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-CCA-SP-USER</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C21698977</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Qe2f300e0-9a6a-4e2a-a2e9-3abbc0d55db4</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>License</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>3</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606642</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-FILESTG-ENT</ID>
+                            </ItemID>
+                            <Description>File Storage Entitlement</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.10</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>240000</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">00.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-FILESTG-ENT</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C46774672</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Qcfee5c68-b6e0-4ecf-ad0d-9acc5f12244b</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>User</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606643</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-EDGECON-1GB</ID>
+                            </ItemID>
+                            <Description>Webex Edge Connect 1GB Peering Link US/UK/AMSTERDAM</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.11</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">2356.00</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">2356.00</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>1</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">3800.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">45600.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">28272.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-EDGECON-1GB</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C73118847</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Q5038771c-6b37-45d1-b229-88017af6d317</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>Gbps</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>2</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606644</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-AUCM3</ID>
+                            </ItemID>
+                            <Description>AU Cloud Meetings Tier 3 (1)</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.12</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">19.53</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">19.53</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>1500</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">31.50</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">567000.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">351540.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                       </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-AUCM3</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C59296957</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Q66793a66-9140-4392-8b44-8c2d346043df</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>Each</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                    <QuoteLine>
+                        <LineNumber>5331606645</LineNumber>
+                        <Item>
+                            <ItemID>
+                                <ID schemeName="PartNumber" schemeAgencyName="Cisco">A-FLEX-AU3-SEC-PK</ID>
+                            </ItemID>
+                            <Description>Extended Security Pack Active User add-on for 10,000+ KWs</Description>
+                            <Description type="ServiceLevelName"/>
+                            <Description type="ServiceType"/>
+                            <Classification>
+                                <Codes>
+                                    <Code listAgencyName="UNSPSC">43222600</Code>
+                                </Codes>
+                                <Type listName="ProductType" listAgencyName="Cisco">NONCONFIGURABLE</Type>
+                            </Classification>
+                            <Specification>
+                                <Property>
+                                    <ParentID>5331606632</ParentID>
+                                    <NameValue name="BundleIndicator">N</NameValue>
+                                    <Description type="Redundancy"/>
+                                    <Description type="Default"/>
+                                    <Description type="OrderedSkuIndicator">N</Description>
+                                    <Effectivity/>
+                                    <Effectivity>
+                                        <Type>ServiceDuration</Type>
+                                        <EffectiveTimePeriod>
+                                            <Duration>P0Y0M0DT0H0M</Duration>
+                                        </EffectiveTimePeriod>
+                                    </Effectivity>
+                                </Property>
+                                <Property>
+                                    <NameValue name="CCWLineNumber">1.13</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPrice">3.10</NameValue>
+                                </Property>
+                                <Property>
+                                    <NameValue name="UnitNetPriceBeforeCredits">3.10</NameValue>
+                                </Property>
+                            </Specification>
+                        </Item>
+                        <Quantity>1500</Quantity>
+                        <UnitPrice>
+                            <Amount currencyID="USD">5.00</Amount>
+                        </UnitPrice>
+                        <ExtendedAmount currencyID="USD">90000.00</ExtendedAmount>
+                        <TotalAmount currencyID="USD">55800.00</TotalAmount>
+                        <PaymentTerm>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">TotalDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">StandardDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PromotionalDiscount</Type>
+                                <DiscountPercent>18.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">ContractualDiscount</Type>
+                                <DiscountPercent>20.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">NonStandardDiscount</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">PrePay</Type>
+                                <DiscountPercent>00.00</DiscountPercent>
+                            </Discount>
+                            <Discount>
+                                <Type listName="CiscoDiscountType">EffectiveDiscount</Type>
+                                <DiscountPercent>38.00</DiscountPercent>
+                            </Discount>
+                        </PaymentTerm>
+                        <Allowance>
+                            <Type>Trade in</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Additional Credit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>TotalCredit</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>Subscription Credits</Type>
+                            <Amount currencyID="USD">00.00</Amount>
+                        </Allowance>
+                        <Allowance>
+                            <Type>MonthlyCredits</Type>
+                            <Amount currencyID="USD">.00</Amount>
+                        </Allowance>
+                        <UserArea>
+                            <ns1:CiscoExtensions>
+                                <ns1:CiscoLine>
+                                    <ns1:BuyMethod>Cisco</ns1:BuyMethod>
+                                    <Party category="InstallAddress">
+                                        <Location>
+                                            <Address>
+                                                <LineOne/>
+                                                <LineTwo/>
+                                                <LineThree/>
+                                                <CityName/>
+                                                <CountrySubDivisionCode/>
+                                                <CountryCode>GB</CountryCode>
+                                                <PostalCode/>
+                                            </Address>
+                                        </Location>
+                                    </Party>
+                                    <ns1:ConfigurationReference>
+                                        <Status>
+                                            <Reason/>
+                                        </Status>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfigurationReference>
+                                        <ns1:VerifiedConfigurationIndicator/>
+                                    </ns1:ConfigurationReference>
+                                    <ns1:ConfiguratorInformation>
+                                        <ns1:ConfigurationPath>A-FLEX-AU3-SEC-PK</ns1:ConfigurationPath>
+                                        <ns1:ProductConfigurationReference>C58295879</ns1:ProductConfigurationReference>
+                                        <ns1:ConfigurationSelectCode>USER</ns1:ConfigurationSelectCode>
+                                    </ns1:ConfiguratorInformation>
+                                    <ns1:MagicKey>Qcdf28dbc-887c-43d4-9546-0514e6966093</ns1:MagicKey>
+                                    <ns1:RequestedStartDate>2019-10-27</ns1:RequestedStartDate>
+                                    <ns1:InitialTerm>12</ns1:InitialTerm>
+                                    <ns1:AutoRenewalTerm>12</ns1:AutoRenewalTerm>
+                                    <ns1:BillingModel>Monthly Billing</ns1:BillingModel>
+                                    <ns1:ChargeType>Recurring</ns1:ChargeType>
+                                    <ns1:UnitOfMeasurement>User</ns1:UnitOfMeasurement>
+                                    <ns1:AdditionalItemInfo>XAAS</ns1:AdditionalItemInfo>
+                                    <ns1:UsageQuantity>0</ns1:UsageQuantity>
+                                    <ns1:ListPriceVersion>1</ns1:ListPriceVersion>
+                                    <ns1:NetPriceProtectionDate>2019-11-23</ns1:NetPriceProtectionDate>
+                                    <ns1:PricingTerm>1</ns1:PricingTerm>
+                                </ns1:CiscoLine>
+                            </ns1:CiscoExtensions>
+                        </UserArea>
+                    </QuoteLine>
+                </Quote>
+            </DataArea>
+        </ShowQuote>
+    </soapenv:Body>
+</soapenv:Envelope>
